@@ -17,7 +17,7 @@ Windows virtualenv:
 Setting up: https://www.liquidweb.com/kb/how-to-setup-a-python-virtual-environment-on-windows-10/
 Activating/deactivating: https://www.codingforentrepreneurs.com/blog/activate-reactivate-deactivate-your-virtualenv
 
-###1) Install Python 3 and PIP
+### 1) Install Python 3 and PIP
 
 The version this script works with is Python 3.8.7, but should with any Python version compatible with tkinter.
 
@@ -27,19 +27,16 @@ For Linux systems, download using the following commands:
 *sudo apt-get install build-essential python3-dev python3-pip -y*
 
 Once it has been installed, check the version using the command to see if installed correctly:
-*python --version*
-
-OR
 
 *python3 --version*
 
-###2) Install Tkinter
+### 2) Install Tkinter
 
 This is the library that is used to develop the GUI. 
 
 *pip install tk*
 
-###3) Download the platform specific libraries
+### 3) Download the platform specific libraries
 Download the platform specific library, if you are using something other than the Base_GUI.py:
 
 Raspberry Pi:
@@ -48,12 +45,12 @@ Raspberry Pi:
 Beagebone:
 *sudo pip3 install Adafruit_BBIO*
 
-###4) Configure the pins to setup
+### 4) Configure the pins to setup
 
 Instead of having to change the pins by editing to the code and recompiling, the pins must be changed using the pinSetup_<Board platform>.txt. There you can also set the 
 PWM frequency of the individual pins. Future revisions of the code can also be made to include change pins within the program, but for now I have it like this for simplicity.
 
-###5) Before FIRST runtime
+### 5) Before FIRST runtime
 
 Before you can make it an executable, run the following command in the Linux command line to compile and create an executable:
 
@@ -64,6 +61,6 @@ For example with the Beaglebone:
 ###5) Run the executable file created
 Use the following command to execute:
 
-*./<File Name>*
+* ./<File Name> *
 For example with the Beaglebone:
-*./PWM_Controller_BB*
+* ./PWM_Controller_BB *
