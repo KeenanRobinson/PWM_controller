@@ -61,7 +61,6 @@ For example with the Beaglebone:
 ### 6) Run the executable file created
 Use the following command to execute:
 
-*./<File Name>*
+./<File Name>
 For example with the Beaglebone:
-  
 **./PWM_Controller_BB**
