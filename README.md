@@ -47,20 +47,20 @@ Beagebone:
 
 ### 4) Configure the pins to setup
 
-Instead of having to change the pins by editing to the code and recompiling, the pins must be changed using the pinSetup_<Board platform>.txt. There you can also set the 
+Instead of having to change the pins by editing to the code and recompiling, the pins must be changed using the pinSetup_(Board platform).txt. There you can also set the 
 PWM frequency of the individual pins. Future revisions of the code can also be made to include change pins within the program, but for now I have it like this for simplicity.
 
 ### 5) Before FIRST runtime
 
 Before you can make it an executable, run the following command in the Linux command line to compile and create an executable:
 
-chmod +x <File name>.py
-For example with the Beaglebone:
+chmod +x (File name).py
+For example with the Beaglebone:\n
 chmod +x PWM_Controller_BB.py
 
 ### 6) Run the executable file created
 Use the following command to execute:
 
 ./<File Name>
-For example with the Beaglebone:
+For example with the Beaglebone:\n
 ./PWM_Controller_BB
