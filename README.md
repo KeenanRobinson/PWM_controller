@@ -10,7 +10,7 @@ The repository contains 3 main files:
 ## Install guide for Linux platforms
 The following instructions should be followed before trying to execute the code on the selected platform (Linux PC, Raspberry Pi, Beaglebone):
 
-###BEFORE YOU RUN:
+### BEFORE YOU RUN:
 This requires that your platform be connected to the internet. These parts are often helpful when dealing with Python programs. I have attached some URLs that I found useful for setting up virtual environments and running them, which you may want to do after Step 1 listed below.
 
 Windows virtualenv:
