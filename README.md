@@ -58,7 +58,7 @@ Before you can make it an executable, run the following command in the Linux com
 For example with the Beaglebone:
 *chmod +x PWM_Controller_BB.py*
 
-###5) Run the executable file created
+### 6) Run the executable file created
 Use the following command to execute:
 
 * ./<File Name> *
