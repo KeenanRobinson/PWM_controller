@@ -55,12 +55,16 @@ PWM frequency of the individual pins. Future revisions of the code can also be m
 Before you can make it an executable, run the following command in the Linux command line to compile and create an executable:
 
 chmod +x (File name).py
-For example with the Beaglebone:\n
+
+For example with the Beaglebone:
+
 chmod +x PWM_Controller_BB.py
 
 ### 6) Run the executable file created
 Use the following command to execute:
 
-./<File Name>
-For example with the Beaglebone:\n
+./(File Name)
+  
+For example with the Beaglebone:
+
 ./PWM_Controller_BB
