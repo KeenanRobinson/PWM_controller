@@ -20,7 +20,7 @@ Windows virtualenv:
 Setting up: https://www.liquidweb.com/kb/how-to-setup-a-python-virtual-environment-on-windows-10/
 Activating/deactivating: https://www.codingforentrepreneurs.com/blog/activate-reactivate-deactivate-your-virtualenv
 
-2) <Be sure of the pins you are using>
+2) *Be sure of the pins you are using*
 
 ### 1) Install Python 3 and PIP
 
