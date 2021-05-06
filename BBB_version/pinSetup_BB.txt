@@ -1,0 +1,8 @@
+pwm0Pin=P8_13
+pwm1Pin=P8_19
+pwm2Pin=P9_14
+pwm3Pin=P9_16
+pwm0Freq=1000
+pwm1Freq=1000
+pwm2Freq=1000
+pwm3Freq=1000
