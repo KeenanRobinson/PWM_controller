@@ -41,11 +41,7 @@ def mainWindowSetup(): # Sets up the main window with widgets
     dutyCycle1 = IntVar()
     dutyCycle2 = IntVar()
     dutyCycle3 = IntVar()
-
-    global pwm0 # Unfortunately with the way arguments are passed, this must be global
-    global pwm1
-    global pwm2
-    global pwm3
+    
     #RPI Settings: Configure pins
     pins, pinFrequency = readPinSetup()
     GPIO.setup(pins[0], GPIO.OUT) #RPI setting: GPIO.output(pin, GPIO.MODE)
@@ -109,7 +105,7 @@ def mainWindowSetup(): # Sets up the main window with widgets
     button3.grid  (row = 2, column = 6, sticky = '', pady = generalPady, padx = generalPadx, columnspan = 2)
     # Notes for this section: ipady= effectively adjusts the slider size. Increase this 
     # if you need to be more accurate.
-    return pwm0, pwm1, pwm2, pwm3
+    return pwm0, pwm1, pwm2, pwm3 # Return these for cleanup later on
 
 def readPinSetup():
 #Responsible for reading in the settings such as pins and pwm frequencies
@@ -138,7 +134,7 @@ def main():
     print("Welcome to PWM controller! Please read the README for details.")
     [pwm0,pwm1,pwm2,pwm3] = mainWindowSetup() #Sets up the GUI, returning pin details for shutdown
     mainWindow.mainloop() #enter an event listening loop, opens mainWindow
-    return [pwm0,pwm1,pwm2,pwm3]
+    return [pwm0,pwm1,pwm2,pwm3] # Return these for cleanup later on
 
 if __name__ == "__main__":
     pwm = main() #Executes program
