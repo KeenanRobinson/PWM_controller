@@ -82,7 +82,9 @@ For example with the Beaglebone:
 
 _./PWM_Controller_BB_
 
-## Suggested pins
+## pinSetup and suggested pins
+### pinSetup_x.txt
+This is the 'config' file to use when you wish to change aspects of the pins. This may be the pin itself (first four entries) or the frequency (last four entries). Note the PWM frequency is in Hz.
 ### Raspberry Pi 3B+
 These are some pins I recommend using for the Raspberry Pi 3B+. I do not know for any other versions what pins are available, so take care.
 * GPIO12
