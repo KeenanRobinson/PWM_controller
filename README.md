@@ -94,9 +94,9 @@ These are some pins I recommend using for the Raspberry Pi 3B+. I do not know fo
 
 ## Beaglebone Black
 There are some pins to use for the Beaglebone Black. I have not tested these so take caution in selecting them, as some are connected to the same channel.
+
 _DISCLAIMER: I have not tested this with a Beaglebone Black. This code was initially meant for a Beaglebone, but we moved away from using one before testing._
 _Therefore, I accept no responsibility for potential damages and this implementation should be used with caution._
-
 * P8_13
 * P8_19
 * P9_14
