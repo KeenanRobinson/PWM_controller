@@ -41,7 +41,7 @@ You should see the version printed in the command terminal.
 
 This is the library that is used to develop the GUI. 
 
-*pip install tk*
+sudo apt-get install python3-tk
 
 ### 3) Download the platform specific libraries
 Download the platform specific library, if you are using something other than the Base_GUI.py:

@@ -8,7 +8,8 @@
 # Created by: Keenan Robinson       
 # ******************************************************************                   
 
-from tkinter import *
+#!usr/bin/env python
+from Tkinter import *
 #************************************
 #       VARIABLE DEFINTIONS         *
         
